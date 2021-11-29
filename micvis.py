@@ -10,7 +10,7 @@ displaymode = "plot"
 
 def run_display():
     """
-    Performs generic setup for 
+    Performs generic setup for gui display, and runs plt.show()
     """
     ani = gui_disp.animation.FuncAnimation(
         gui_disp.fig, animations.ani_reference[displaymode], interval=1
