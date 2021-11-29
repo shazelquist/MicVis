@@ -7,7 +7,7 @@ from gui_disp import *
 
 def ani_bar(arg):
     """
-        Defines output method for updating bar plot
+    Defines output method for updating bar plot
     """
     readstream()
     ax1.clear()
@@ -16,7 +16,7 @@ def ani_bar(arg):
 
 def ani_plot(arg):
     """
-        Defines output method for updating line plot
+    Defines output method for updating line plot
     """
     readstream()
     ax1.clear()

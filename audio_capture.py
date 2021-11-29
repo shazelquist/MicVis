@@ -26,7 +26,7 @@ stream = False
 
 def openstream():
     """
-        Opens audio stream
+    Opens audio stream
     """
     global stream
     stream = audio.open(**pa_settings)
@@ -35,7 +35,7 @@ def openstream():
 
 def readstream():
     """
-        Pushes data stream to other objects and trims if nessasary
+    Pushes data stream to other objects and trims if nessasary
     """
     framerec.append(np.frombuffer(stream.read(chunk), dtype=np.int16))
     timerec.append(datetime.now())
@@ -48,7 +48,7 @@ def readstream():
 
 def endstream():
     """
-        Closes stream objects, and turns off microphone input
+    Closes stream objects, and turns off microphone input
     """
     stream.stop_stream()
     stream.close()

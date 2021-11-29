@@ -10,7 +10,7 @@ displaymode = "plot"
 
 def run_display():
     """
-        Performs generic setup for 
+    Performs generic setup for 
     """
     ani = gui_disp.animation.FuncAnimation(
         gui_disp.fig, animations.ani_reference[displaymode], interval=1
@@ -20,7 +20,7 @@ def run_display():
 
 def main():
     """
-        Runs applicaiton given current configuration
+    Runs applicaiton given current configuration
     """
     audio_capture.openstream()
     run_display()
