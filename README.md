@@ -28,5 +28,5 @@ A small python application for visualizing microphone input
     conda install PyAudio
     pip install -r requirements.txt
 
-  5) Code up your solution, lint with `black youreditedfile.py` and push your solution to your fork.
+  5) Code up your [PEP-8](https://www.python.org/dev/peps/pep-0008/) complient solution, aditional linting with `black youreditedfile.py` and push your solution to your fork.
   6) Open a pull request.
